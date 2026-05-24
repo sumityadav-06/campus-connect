@@ -1,0 +1,132 @@
+body {
+  background-color: how#3c77e41f;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #2f4363;
+    color: white;
+    padding: 22px;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  margin-right: 40px;
+  margin: 0px;
+  padding: 17px;
+  
+
+  background-color: #2f4363;
+  a {
+    margin-right: 15px;
+    border-color: black;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    
+  }
+  
+}
+
+a:hover{
+     background-color: rgba(34, 234, 234, 0.278);
+     color: rgb(213, 216, 217);
+     padding: 10px  8px;
+     border-radius: 8%;
+     outline:none;
+  }
+
+
+
+form {
+  h2 {
+    display: flex;
+    justify-content: center;
+  }
+  .p1 {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 320px;
+  }
+  .name {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 260px;
+  }
+  input {
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid black;
+  }
+  input:hover {
+    background-color: lightgrey;
+  }
+  .email {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 260px;
+  }
+
+  .p2 {
+    padding: 0px;
+    margin: 0px;
+    margin-left: 260px;
+  }
+
+  .message {
+    display: flex;
+    p {
+      margin: 0px;
+      padding: 0px;
+      margin-left: 250px;
+    }
+    padding: 8px;
+    .mbox {
+      margin: 0px;
+      padding: 0px;
+      margin-left: 4px;
+    }
+  }
+  .mbox:hover{
+    background-color: lightgrey;
+  }
+
+  button {
+    padding: 5px;
+    margin: 0px;
+    margin-left: 335px;
+    width: 100px;
+    font-size: 17px;
+    border-radius: 4px;
+    background-color: #2563eb;
+    color: white;
+  }
+  button:hover {
+    background-color: #1d4ed8;
+    padding: 4px 4px;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+
+  }
+
+  .p3 {
+    margin: 0px;
+    padding: 10px;
+    margin-left: 220px;
+    margin-top: 10px;
+  }
+}
+
+footer {
+  margin: 0px;
+  padding: 0px;
+  margin-left: 300px;
+}
