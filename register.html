@@ -3,7 +3,80 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Registration page</title>
   </head>
-  <body></body>
+  <body>
+    <form>
+        <br>
+      <label for="Name">
+        Name:
+        <input
+          type="text"
+          name="name"
+          id="Name"
+          placeholder="Enter your Name"
+        />
+      </label>
+    </br>
+
+    <br>
+      <label for="email">
+        Email:
+        <input type="email" name="email" id="email" placeholder="Enter email" />
+      </label>
+    </br>
+    <br>
+
+      <label for="Branch">
+        Branch:
+        <input
+          type="text"
+          name="branch"
+          id="branch"
+          placeholder="Enter your branch"
+        />
+      </label>
+       </br>
+
+       <br>
+      <label for="Year">
+        Year:
+        <select name="year" id="year">
+          <option>I</option>
+          <option>II</option>
+          <option>III</option>
+          <option>IV</option>
+        </select>
+      </label>
+       </br>
+       <br>
+      <label for="Gender">
+        gender:
+        <select name="gender" id="gender">
+        <option>Male</option>
+          <option>Female</option>
+          <option>other</option>
+        </select>
+      </label>
+       </br>
+
+<br>
+      <label for="skills/interests">
+        <p>skills/interest:</p>
+        <textarea
+          name="skill/interest"
+          id="skills"
+          placeholder="Enter your skills and interests"
+        ></textarea>
+      </label>
+       </br>
+
+       <br>
+      <label for="button"></label>
+       </br>
+       
+      <button>submit</button>
+       
+    </form>
+  </body>
 </html>
