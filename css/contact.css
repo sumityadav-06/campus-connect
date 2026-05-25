@@ -3,15 +3,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
-    display: flex;
-    justify-content: center;
-    margin: 0px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: #2f4363;
-    color: white;
-    padding: 22px;
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #2f4363;
+  color: white;
+  padding: 22px;
 }
 
 .heading {
@@ -20,7 +20,6 @@ h1{
   margin-right: 40px;
   margin: 0px;
   padding: 17px;
-  
 
   background-color: #2f4363;
   a {
@@ -29,20 +28,16 @@ h1{
     font-size: 18px;
     text-decoration: none;
     color: rgb(253, 253, 253);
-    
   }
-  
 }
 
-a:hover{
-     background-color: rgba(34, 234, 234, 0.278);
-     color: rgb(213, 216, 217);
-     padding: 10px  8px;
-     border-radius: 8%;
-     outline:none;
-  }
-
-
+a:hover {
+  background-color: rgba(34, 234, 234, 0.278);
+  color: rgb(213, 216, 217);
+  padding: 10px 8px;
+  border-radius: 8%;
+  outline: none;
+}
 
 form {
   h2 {
@@ -52,12 +47,12 @@ form {
   .p1 {
     margin: 0px;
     padding: 0px;
-    margin-left: 320px;
+    margin-left: 700px;
   }
   .name {
     margin: 0px;
     padding: 0px;
-    margin-left: 260px;
+    margin-left: 630px;
   }
   input {
     padding: 4px;
@@ -70,13 +65,13 @@ form {
   .email {
     margin: 0px;
     padding: 0px;
-    margin-left: 260px;
+    margin-left: 630px;
   }
 
   .p2 {
     padding: 0px;
     margin: 0px;
-    margin-left: 260px;
+    margin-left: 630px;
   }
 
   .message {
@@ -84,7 +79,10 @@ form {
     p {
       margin: 0px;
       padding: 0px;
-      margin-left: 250px;
+      margin-left: 620px;
+      border-radius: 6%;
+
+      border-width: 4px;
     }
     padding: 8px;
     .mbox {
@@ -93,14 +91,14 @@ form {
       margin-left: 4px;
     }
   }
-  .mbox:hover{
+  .mbox:hover {
     background-color: lightgrey;
   }
 
   button {
     padding: 5px;
     margin: 0px;
-    margin-left: 335px;
+    margin-left: 695px;
     width: 100px;
     font-size: 17px;
     border-radius: 4px;
@@ -113,14 +111,12 @@ form {
     outline: none;
     border-radius: 6px;
     cursor: pointer;
-
-
   }
 
   .p3 {
     margin: 0px;
     padding: 10px;
-    margin-left: 220px;
+    margin-left: 590px;
     margin-top: 10px;
   }
 }
@@ -128,5 +124,5 @@ form {
 footer {
   margin: 0px;
   padding: 0px;
-  margin-left: 300px;
+  margin-left: 665px;
 }
